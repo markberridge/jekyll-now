@@ -25,6 +25,11 @@
         analytics.load("Bc66K8RhtcqaW1x1GoIGs8FIqxoutFsA");
         analytics.page()
       }}();
+      // hard coded identity for testing segment tracking
+      analytics.identify('1', {
+        name: 'Mark Berridge',
+        email: 'mark.berridge@example.com'
+      });
     </script>
     
   </head>
